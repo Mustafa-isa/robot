@@ -29,12 +29,12 @@ function Footer() {
           <h2 className=" my-12 text-center text-2xl font-bold  p-3 bg-slate-300 w-[300px] mx-auto bg-opacity-45 rounded-lg">
           Supervisors
             </h2>
-            <div className="flex gap-4 items-center justify-center"> 
+            <div className="flex gap-4 flex-wrap items-center justify-center"> 
             { 
             
             subervisors.map((e) =>{ 
               return ( 
-                <h2 key={e} className=" my-12 text-center text-lg font-bold  p-2 bg-teal-300 w-[300px] mx-auto bg-opacity-45 rounded-lg">
+                <h2 key={e} className="  text-center text-sm font-bold  p-1 bg-teal-300  mx-auto bg-opacity-45 rounded-lg">
             {e}
               </h2>
               )
